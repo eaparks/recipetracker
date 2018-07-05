@@ -1,0 +1,34 @@
+{
+  "name": "recipetracker",
+  "version": "0.0.0",
+  "description": "Save, track, catagorize recipes",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eaparks/recipetracker.git"
+  },
+  "keywords": [
+    "npm",
+    "recipes"
+  ],
+  "author": "Ed Parks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eaparks/recipetracker/issues"
+  },
+  "homepage": "https://github.com/eaparks/recipetracker#readme"
+}
