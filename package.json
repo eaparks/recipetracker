@@ -8,14 +8,20 @@
     "lib": "lib",
     "test": "test"
   },
+  "scripts": {
+    "test": "mocha test",
+    "start": "node index.js"
+  },
   "dependencies": {
-    "chai": "^4.1.2"
+    "async": "^2.6.1",
+    "chai": "^4.1.2",
+    "eslint": "^5.0.1",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "lodash": "^4.17.10"
   },
   "devDependencies": {
     "mocha": "^5.2.0"
-  },
-  "scripts": {
-    "test": "mocha"
   },
   "repository": {
     "type": "git",
