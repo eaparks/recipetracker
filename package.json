@@ -1,7 +1,7 @@
 {
   "name": "recipetracker",
   "version": "0.1.0",
-  "description": "Save, track, catagorize recipes",
+  "description": "Save, track, categorize recipes",
   "main": "index.js",
   "directories": {
     "example": "examples",
