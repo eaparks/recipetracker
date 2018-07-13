@@ -1,17 +1,15 @@
-recipe: {
-    {"Ingredients":
+{
+    "Name": "Swedish Meatballs",
+    "Ingredients":
         [
             "2 lb meat",
             "1 onion",
             "gravy"
-        ]
-    }
+        ],
 
-    {"Instructions":
+    "Instructions":
         [
             "1. Do that one thing.",
             "2. Serve warm."
         ]
-    }
-
 }

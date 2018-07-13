@@ -15,8 +15,14 @@ app.engine('.hbs', exphbs({
 app.set('view engine', '.hbs');
 app.set('views', path.join(__dirname, 'views'));
 
-
 app.get('/', (request, response) => {
+    response.render('home', {
+        name: 'Recipe Vault',
+        chowfun: '/recipes/chowfun',
+        swedishmeatballs: '/recipes/swedishmeatballs',
+    })
+});
+app.get('/recipes', (request, response) => {
     response.render('home', {
         name: 'Recipe Vault',
         chowfun: '/recipes/chowfun',
@@ -26,12 +32,12 @@ app.get('/', (request, response) => {
 
 app.get('/recipes/chowfun', (request, response) => {
     fs.readFile('./docs/recipes/chowfun.recipe', function(err, data) {
-        response.render('recipe', { recipetext: data });
+        response.render('recipes/recipe', { recipetext: data });
     });
 });
 app.get('/recipes/swedishmeatballs', (request, response) => {
     fs.readFile('./docs/recipes/swedishmeatballs.recipe', function(err, data) {
-        response.render('recipe', { recipetext: data });
+        response.render('recipes/recipe', { recipetext: data });
     });
 });
 

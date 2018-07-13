@@ -1,9 +1,14 @@
-Ingredients:
+{
+    "Name": "Chow Fun",
+    "Ingredients":
+        [
+            "1 lb ground turkey",
+            "1 lb egg noodles"
+        ],
 
-1 lb ground turkey
-
-
-Instructions:
-
-1. Do that one thing.
-2. Serve warm.
+    "Instructions":
+        [
+            "1. Do that one thing",
+            "2. Serve warm"
+        ]
+}
