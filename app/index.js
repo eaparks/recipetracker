@@ -8,22 +8,23 @@ const app = express();
 const port = 3000;
 
 app.engine('.hbs', exphbs({
-    defaultLayout: 'main',
+    defaultLayout: 'layout',
     extname: '.hbs',
-    layoutsDir: path.join(__dirname, 'views/layouts')
+    layoutsDir: path.join(__dirname),
+    partialsDir: path.join(__dirname)
 }));
 app.set('view engine', '.hbs');
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(__dirname));
 
 app.get('/', (request, response) => {
-    response.render('home', {
+    response.render('recipes/recipehome', {
         name: 'Recipe Vault',
         chowfun: '/recipes/chowfun',
         swedishmeatballs: '/recipes/swedishmeatballs',
     })
 });
 app.get('/recipes', (request, response) => {
-    response.render('home', {
+    response.render('recipes/recipehome', {
         name: 'Recipe Vault',
         chowfun: '/recipes/chowfun',
         swedishmeatballs: '/recipes/swedishmeatballs',
