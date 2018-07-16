@@ -1,14 +1,27 @@
 {
     "Name": "Chow Fun",
+    "Source": "http://community.seattletimes.nwsource.com/archive/?date=19940625&slug=1917331",
     "Ingredients":
         [
-            "1 lb ground turkey",
-            "1 lb egg noodles"
+            "1 (12-ounce) package extra wide egg noodles or fettuccine, cooked and drained",
+            "1 tablespoon vegetable oil",
+            "2 teaspoons minced fresh ginger",
+            "2 cloves garlic, minced",
+            "1/2 pound ground pork"
+            "4 tablespoons soy sauce, divided",
+            "1 cup grated carrot",
+            "1 cup green beans, cut into 1-inch pieces",
+            "1 cup bean sprouts",
+            "1 tablespoon sesame oil",
+            "1 tablespoon oyster sauce"
+            "1/2 cup chopped green onions"
         ],
 
     "Instructions":
         [
-            "1. Do that one thing",
-            "2. Serve warm"
+            "1. Cook and drain noodles. In a wok or large skillet, heat the vegetable oil and quickly stir in ginger and garlic, cooking only a few seconds, until fragrant. Add pork and cook, stirring as it cooks. When it is browned, season with 2 tablespoons soy sauce.",
+            "2. Add the carrots and sliced green beans. Stir together until just crisp cooked. Add the bean sprouts and cook for 30 seconds.",
+            "3. Add the noodles, toss with the meat and vegetables until well blended. Add the sesame oil, oyster sauce and remaining 2 tablespoons soy sauce.",
+            "4. Toss again and heat until noodles are hot, all the vegetables are cooked and flavors are blended. Garnish with chopped green onions."
         ]
 }

@@ -18,26 +18,27 @@ pg_ctl -D /usr/local/var/postgres start && brew services start postgres
     https://spoonacular.com/food-api
 
 
-hrecipe (and microformats in general) are the bees knees and lucky for you are widely employed across the web; here's a list of sites actively publishing hrecipes in the wild; you can scrape and parse as you please!
-http://www.eat-vegan.rocks/
-http://funcook.com/
-http://www.therecipedepository.com
-http://sabores.sapo.pt/
-http://www.epicurious.com/
-http://www.williams-sonoma.com/
-http://foodnetwork.com/
-http://www.plantoeat.com/recipe_book
-http://www.essen-und-trinken.de
-http://itsripe.com/recipes/
-this list was lifted from the hrecipes specification on the microformats wiki ->
-http://microformats.org/wiki/hrecipe
+1. hrecipe (and microformats in general) are the bees knees and lucky for you are widely employed across the web; here's a list of sites actively publishing hrecipes in the wild; you can scrape and parse as you please!
+  - http://www.eat-vegan.rocks/
+  - http://funcook.com/
+  - http://www.therecipedepository.com
+  - http://sabores.sapo.pt/
+  - http://www.epicurious.com/
+  - http://www.williams-sonoma.com/
+  - http://foodnetwork.com/
+  - http://www.plantoeat.com/recipe_book
+  - http://www.essen-und-trinken.de
+  - http://itsripe.com/recipes/
+  
+This list was lifted from the hrecipes specification on the microformats wiki ->
+    http://microformats.org/wiki/hrecipe
 
 
-TODO - https://developer.edamam.com/edamam-recipe-api
+TODO - This is looking good: https://developer.edamam.com/edamam-recipe-api
     edEdamamParks/<seeDashlane>
     Recipe Search API:
-    application id: 4ed2d625
-    application key: 253a7cf6e9e3a77ef162804f395c22e7
+    application id: see EdamamAPIKeys.txt locally
+    application key: see EdamamAPIKeys.txt locally
 
 Edamam.com sampleQueryResponse.json is a response from this get:
   curl "https://api.edamam.com/search?q=chicken&app_id=4ed2d625&app_key=253a7cf6e9e3a77ef162804f395c22e7&from=0&to=3&calories=591-722&health=alcohol-free"
