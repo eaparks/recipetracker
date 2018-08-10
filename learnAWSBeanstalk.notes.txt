@@ -1,0 +1,6 @@
+All Applications  learnBeanstalk  Learnbeanstalk-env  Environment ID: e-jjpkqp2ybd, URL: Learnbeanstalk-env.pm53kyeikk.us-west-2.elasticbeanstalk.com
+
+https://us-west-2.console.aws.amazon.com/elasticbeanstalk/home?region=us-west-2#/environment/dashboard?applicationName=learnBeanstalk&environmentId=e-jjpkqp2ybd
+
+http://learnbeanstalk-env.pm53kyeikk.us-west-2.elasticbeanstalk.com/
+
